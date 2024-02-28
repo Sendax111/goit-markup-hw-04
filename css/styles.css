@@ -1,0 +1,327 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #ffffff; 
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+a {
+    text-decoration: none;
+}
+button {
+    display: block;
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.04em;
+        color: #fff;
+        cursor: pointer;
+}
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+span {
+    color:#2e2f42;
+ }
+
+.basis-of-styles {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #fff;
+}
+header .container{
+    display: flex;
+
+}
+.headeroll {
+border-bottom: 1px solid #e7e9fc;
+}
+.headeroll>.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-class {
+    display: flex;
+    align-items: center;    
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.nav-class >.logo {
+     margin-right: 76px;
+ }
+.page-nav,
+.address-menu {
+    display: flex;
+    gap: 40px;
+}
+.link-nav,
+.nav-address {
+    display: block;
+    padding: 24px 0;
+}
+.link-nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.link-nav:hover,
+.link-nav:focus {
+    color:#404bbf;
+}
+.page-address {
+font-style: normal;
+}
+.address-menu {
+    display: flex;
+    gap: 40px;
+}
+.nav-address {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.nav-address:hover,
+.nav-address:focus {
+    color:#404bbf;
+}
+
+.text-with-button {
+    background-color: #2e2f42;
+    padding: 188px 0;
+}
+.title-header {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 48px;
+    max-width: 496px;
+    margin: 0 auto 48px;
+}
+.button-header {
+    font-family: 'Roboto', sans-serif;
+    background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+}
+.button-header:hover,
+.button-header:focus {
+    background-color: #404BBF;
+}
+.second-sec {
+    padding: 120px 0;
+}
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+ .text-benefits {
+            display: flex;
+            gap: 24px;
+    }
+        .li-benefits {
+            width: calc((100% - 3 * 24px) / 4);
+        }
+                .text-benefits-h {
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 500;
+                    font-size: 20px;
+                    letter-spacing: 0.02em;
+                    color: #2e2f42;
+                    line-height: 1.2;
+                    margin-bottom: 8px;
+                }
+        
+                .text-benefits-p {
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    font-size: 16px;
+                    letter-spacing: 0.02em;
+                    color: #434455;
+                    line-height: 1.5;
+                }
+.page-our-team {
+    background: #f4f4fd;
+    padding: 120px 0;
+}
+.head-our-team {
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        text-align: center;
+        color: #2e2f42;
+        line-height: 1.11;
+        margin-bottom: 72px;
+}
+.ul-our-team {
+    display: flex;
+    gap: 24px;
+
+}
+.li-our-team {
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.div-our-team {
+    padding: 32px 0;
+}
+.name-our-team {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        line-height: 1.2;
+        text-align: center;
+        margin-bottom: 8px;
+}
+.text-our-team {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+    line-height: 1.5;
+    text-align: center;
+}
+.head-our-portfolio {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+.ul-our-portfolio {
+    display: flex;
+    row-gap: 48px;
+    column-gap: 24px;
+    flex-wrap: wrap;
+}
+.li-ul-our-portfolio {
+    width: calc((100% - 48px) / 3);
+}
+.div-our-portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;    
+}
+.name-our-portfolio {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        line-height: 1.2;
+        margin-bottom: 8px;
+}
+.name-our-portfolio {
+    margin-bottom: 8px;
+}
+.text-our-portfolio {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0.02em;
+        color: #434455;
+        line-height: 1.5;
+ }
+.our-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border-top: none;
+}
+.page-footer {
+    background: #2e2f42;
+    padding: 100px 0;
+ }
+.logo-span {
+    color: #f4f4fd;
+}
+.container>.logo {
+    display: inline-block;
+    margin-bottom: 16px; } 
+ .text-footer {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    width: 264px;
+ }
+
+
+
+
+
+ 
+ 
+
+ 
+
