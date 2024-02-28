@@ -340,6 +340,8 @@ font-style: normal;
     background: #fff;
     cursor: pointer;
     border: 1px solid #f4f4fd;
+}
+.li-ul-our-portfolio:hover p {
     transform: translateY(0%);
 }
 .div-our-portfolio {
