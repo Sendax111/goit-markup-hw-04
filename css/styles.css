@@ -392,6 +392,10 @@ transform: translateX(0);
     background: #2e2f42;
     padding: 100px 0;
  }
+footer> .container {
+    display: flex;
+    align-items: baseline;
+}
  .footer-text-wrap {
     margin-right: 120px;
     display: flex;
