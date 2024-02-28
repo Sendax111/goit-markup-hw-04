@@ -394,6 +394,8 @@ transform: translateX(0);
  }
  .footer-text-wrap {
     margin-right: 120px;
+    display: flex;
+    align-items: baseline;
 }
 .logo-span {
     color: #f4f4fd;
