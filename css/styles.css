@@ -107,7 +107,7 @@ header .container {
     position: relative;
 }
 
-.page-nav ::after {
+.current ::after {
     content: '';
     width: 100%;
     position: absolute;
@@ -133,7 +133,6 @@ header .container {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-nav {
-    position: relative;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -141,6 +140,7 @@ header .container {
     color: #2e2f42; 
 }
 .current {
+    position: relative;
     color:#404BBF;
 }
 .current::after {
@@ -182,10 +182,12 @@ header .container {
 .text-with-button {
     background-color: #2e2f42;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/peoplOffice.jpg);
     max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
     background-repeat: no-repeat;
     background-position: center;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peoplOffice.jpg);
     background-size: cover;
 }
 
@@ -339,6 +341,7 @@ header .container {
     color: #434455;
     line-height: 1.5;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .social-links-list {
@@ -400,8 +403,6 @@ header .container {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
         0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
-    cursor: pointer;
-    border: 1px solid #f4f4fd;
 }
 
 .li-ul-our-portfolio:hover p {
@@ -477,12 +478,13 @@ footer>.container {
 
 .footer-text-wrap {
     margin-right: 120px;
-    display: flex;
     align-items: baseline;
 }
 
 .logo-span {
     color: #f4f4fd;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .container>.logo {
